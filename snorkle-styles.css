@@ -38,7 +38,12 @@
         }
 
         .snorkle-focus-picture {
-            height: 300px;
+            height: 200px;
+            width: auto;
+        }
+
+        .snorkle-focus-picture-big {
+            height: 550px;
             width: auto;
         }
 
@@ -76,14 +81,6 @@
             margin-top: 10px;
         }
 
-        @font-face {
-            font-family: brightness;
-            scr: url(https://www.dafont.com/brightness.font);
-            font-stretch: condensed;
-            font-style: oblique;
-            font-weight: bold;
-        }
-
         .snorkle-box {
             margin-top: 10px;
             height: 100px;
@@ -92,7 +89,8 @@
 
         .special-boxes {
             display: flex;
-            align-items: left;
+            align-items: center;
+            justify-content: space-around;
 
         }
 
@@ -134,15 +132,31 @@
         }
 
         .blue-rectangle {
-            height: 437px;
+            height: 238px;
             width: 200px;
             background: #0E86D4;
             color: #0A0A00;
             text-align: center;
         }
 
+        .blue-rectangle-evil {
+            height: 430px;
+            width: 200px;
+            background: #0E86D4;
+            color: #0A0A00;
+            text-align: center;
+        }
+
+        .red-rectangle-evil {
+            height: 368px;
+            width: 200px;
+            background: #D01110;
+            color: #0A0A00;
+            text-align: center;
+        }
+
         .red-rectangle {
-            height: 366px;
+            height: 310px;
             width: 200px;
             background: #D01110;
             color: #0A0A00;
